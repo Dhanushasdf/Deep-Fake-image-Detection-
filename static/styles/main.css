@@ -1,0 +1,59 @@
+.navbar-brand {
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 250px;
+    padding: 20px;
+    color: white;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url('https://cdn.wallpapersafari.com/73/33/P9b2gR.jpg');
+    /* background-color: aliceblue; */
+    height: 100%;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.form-control {
+    max-width: 300px;
+}
+
+.main-form {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.parent {
+    /* border: 1px solid black; */
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.child {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin: 10px;
+}
